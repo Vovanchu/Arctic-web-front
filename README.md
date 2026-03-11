@@ -12,7 +12,6 @@ React + TypeScript додаток для управління сніпетами
 
 ```bash
 git clone <repo-url>
-cd frontend
 ```
 
 ### 2. Встановити залежності
@@ -140,9 +139,9 @@ cp -r dist/* /var/www/html/
 frontend/
 ├── src/
 │   ├── components/     # UI компоненти (SnippetForm, SnippetList, SnippetItem, Loader, Filter)
-│   ├── pages/          # Сторінки / кореневі компоненти
 │   ├── api/            # API виклики (fetchSnippets, createSnippet, ...)
 │   ├── types/          # TypeScript типи
+│   ├── APP.tsx          # Головна сторінка
 │   └── main.tsx        # Точка входу
 ├── .env.example
 ├── package.json
